@@ -1,0 +1,22 @@
+/* Center the skills section and adjust padding */
+#skills {
+    text-align: center;
+    padding: 2rem 0; /* Adjust as needed for top and bottom spacing */
+}
+
+#skills ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#skills .list-inline-item {
+    padding: 10px; /* Space between each skill icon */
+}
+
+#skills img {
+    border-radius: 8px;
+    max-width: 80px;
+    height: auto;
+}
